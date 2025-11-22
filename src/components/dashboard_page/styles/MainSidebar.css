@@ -1,0 +1,43 @@
+.main_sidebar-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0.8rem;
+}
+
+.main_sidebar-link {
+  padding: 0.4rem 0.8rem;
+
+  color: var(--black);
+}
+
+.main_sidebar-link:hover {
+  color: var(--purple-dark);
+}
+
+.main_sidebar-link-active, 
+.main_sidebar-link-active:hover {
+  border-radius: 4px;
+  background-color: var(--gray);
+  color: var(--purple);
+  font-weight: 400;
+}
+
+@media (max-width: 1020px) {
+  .main_sidebar-accordion 
+  .accordion-header {
+    display: flex;
+  }
+
+  .main_sidebar-accordion 
+  .accordion-body {
+    max-height: 0px;
+  }
+
+  .main_sidebar-accordion 
+  .accordion-body-open {
+    padding: 8px;
+    max-height: 500px;
+
+    border-bottom: 1px solid var(--black);
+  }
+}

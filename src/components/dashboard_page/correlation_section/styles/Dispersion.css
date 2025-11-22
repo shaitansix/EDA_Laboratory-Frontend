@@ -1,0 +1,40 @@
+.dispersion-content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.dispersion-inputs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+}
+
+.dispersion-input {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.dispersion-chart {
+  max-width: calc(var(--max-width) - 251px - 16px - 8px - 220px - 40px);
+  max-height: 300px;
+
+  overflow: auto;
+  scrollbar-width: auto;
+  scrollbar-color: var(--gray) transparent;
+}
+
+@media (max-width: 1280px) {
+  .dispersion-chart {
+    max-width: calc(100vw - 251px - 16px - 40px - 20px);
+  }
+}
+
+@media (max-width: 1020px) {
+  .dispersion-chart {
+    min-width: calc(770px - 72px);
+    max-width: calc(100vw - 72px);
+  }
+}

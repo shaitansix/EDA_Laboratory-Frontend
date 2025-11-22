@@ -1,0 +1,33 @@
+.custom_link {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+
+  color: var(--black);
+}
+
+.custom_link:hover {
+  color: var(--purple-dark);
+}
+
+.custom_link-active, 
+.custom_link-active:hover {
+  border-left: 2px solid var(--purple-dark);
+  color: var(--purple-dark);
+}
+
+@media 
+  (max-width: 1280px), 
+  (max-width: 1020px) {
+  .custom_link-active {
+    color: var(--black);
+  }
+
+  .custom_link-active, 
+  .custom_link-active:hover {
+    border-left: none;
+  }
+
+  .custom_link-active:hover {
+    color: var(--purple-dark);
+  }
+}

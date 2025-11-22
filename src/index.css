@@ -1,0 +1,62 @@
+:root {
+  --max-width: 1300px;
+
+  --black: hsl(260, 30%, 8%);
+  --gray-light: hsl(260, 12%, 44%);
+  --gray: hsl(260, 12%, 32%);
+  --gray-op: hsla(260, 12%, 32%, 0.9);
+  --white: hsl(260, 60%, 96%);
+
+  --purple-dark: hsl(260, 50%, 50%);
+  --purple: hsl(260, 50%, 76%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+html {
+  background-color: var(--white);
+  color: var(--black);
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+select, ::picker(select) {
+  appearance: base-select;
+
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+::picker(select) {
+  max-width: 300px;
+
+  background-color: var(--white);
+}
+
+select option {
+  padding: 0.2rem;
+}
+
+select option:hover {
+  background-color: var(--gray);
+  color: var(--white);
+}
+
+select option::checkmark {
+  display: none;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: var(--max-width);
+}

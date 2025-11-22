@@ -1,0 +1,28 @@
+.main_layout-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+
+  min-height: 100vh;
+}
+
+.main_layout-header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+
+  height: 52px;
+}
+
+.main_layout-body {
+  flex-grow: 1;
+  width: 100%;
+
+  box-sizing: border-box;
+}
+
+@media (max-width: 1020px) {
+  .main_layout-container {
+    min-width: fit-content;
+  }
+}

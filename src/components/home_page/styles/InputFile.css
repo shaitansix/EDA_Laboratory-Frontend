@@ -1,0 +1,27 @@
+.input_file-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  width: 500px;
+  height: 200px;
+
+  border: 1px dashed var(--gray);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.input_file-container-active {
+  color: var(--purple-dark);
+  border-color: var(--purple-dark);
+}
+
+.input_file-icon {
+  width: 64px;
+  height: 64px;
+
+  stroke-width: 0.6;
+  color: inherit;
+}

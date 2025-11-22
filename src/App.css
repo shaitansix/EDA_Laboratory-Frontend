@@ -1,0 +1,75 @@
+.text-title {
+  color: var(--gray);
+  font-size: 3.2rem;
+  font-weight: 400;
+}
+
+.text-subtitle {
+  color: var(--gray);
+  font-size: 2rem;
+}
+
+.text-strong, 
+.text-subtitle {
+  font-weight: 500;
+}
+
+.custom-select {
+  padding: 0.2rem;
+  min-width: 140px;
+  max-width: 140px;
+
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid var(--gray);
+
+  background-color: transparent;
+}
+
+.custom-select:hover {
+  cursor: pointer;
+}
+
+.custom-select::picker-icon {
+  color: var(--black);
+  font-size: 0.8rem;
+}
+
+.custom-button {
+  padding: 0.4rem 1.2rem;
+  height: fit-content;
+
+  border: none;
+  outline: none;
+  border-radius: 0.2rem;
+  background-color: var(--gray);
+  color: var(--white);
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.custom-button:hover {
+  background-color: var(--gray-op);
+  cursor: pointer;
+}
+
+.custom-button:disabled, 
+.custom-button:disabled:hover {
+  background-color: var(--gray-light);
+  cursor: not-allowed;
+}
+
+.custom-input {
+  padding: 0.2rem 0.4rem;
+  width: 50px;
+
+  border: none;
+  outline: none;
+  border-bottom: 1px solid var(--gray);
+  background-color: transparent;
+  color: var(--black);
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}

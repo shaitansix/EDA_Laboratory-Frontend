@@ -1,0 +1,19 @@
+.subsection-container {
+  scroll-margin-top: calc(52px + 16px);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.subsection-intro{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+@media (max-width: 1020px) {
+  .subsection-container {
+    scroll-margin-top: calc(52px + 45px + 16px);
+    scroll-margin-left: 36px;
+  }
+}
