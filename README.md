@@ -1,16 +1,36 @@
-# React + Vite
+# 🔬 EDA Laboratory
+*Interactive platform for performing Exploratory Data Analysis (EDA) using modern frontend and backend technologies.*
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div style = 'padding: 8px 12px; border-left: solid 2px hsl(40, 60%, 70%); color: hsl(40, 60%, 70%); background-color: hsla(40, 60%, 70%, 0.2);'>
+  <span style = 'font-size: 1.2rem;'>
+    Note:
+  </span>
+  <p style = 'margin: 0; padding: 0;'>
+    For the frontend to function correctly, you must configure the EDA Laboratory Backend project.  
+    To configure the backend, go to <a href = 'https://github.com/shaitansix/EDA_Laboratory-Backend' tagret = '_blank'>EDA Laboratory Backend</a>.
+  </p>
+</div>
 
-Currently, two official plugins are available:
+---
+## 🚀 Quick Setup Guide
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 1. Create a folder for the project and open cmd in this folder
 
-## React Compiler
+### 2. Clone the Repository
+```bash
+git clone https://github.com/shaitansix/EDA_Laboratory-Frontend.git
+cd EDA_Laboratory-Frontend
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 3. Install dependencies
+```bash
+npm install
+```
 
-## Expanding the ESLint configuration
+### 4. Run the development server
+```bash
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+*✔️ Frontend available at: 
+http://localhost:5173/*
