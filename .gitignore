@@ -23,3 +23,8 @@ package-lock.json
 *.njsproj
 *.sln
 *.sw?
+
+# Docker
+.dockerignore
+docker-compose*.yml
+Dockerfile*
