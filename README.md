@@ -1,15 +1,9 @@
 # 🔬 EDA Laboratory
 *Interactive platform for performing Exploratory Data Analysis (EDA) using modern frontend and backend technologies.*
 
-<div style = 'padding: 8px 12px; border-left: solid 2px hsl(40, 60%, 70%); color: hsl(40, 60%, 70%); background-color: hsla(40, 60%, 70%, 0.2);'>
-  <span style = 'font-size: 1.2rem;'>
-    Note:
-  </span>
-  <p style = 'margin: 0; padding: 0;'>
-    For the frontend to function correctly, you must configure the EDA Laboratory Backend project.  
-    To configure the backend, go to <a href = 'https://github.com/shaitansix/EDA_Laboratory-Backend' tagret = '_blank'>EDA Laboratory Backend</a>.
-  </p>
-</div>
+> **Note:**
+> For the frontend to function correctly, you must configure the EDA Laboratory Backend project.  
+> To configure the backend, go to [EDA Laboratory Backend](https://github.com/shaitansix/EDA_Laboratory-Backend).
 
 ---
 ## 🚀 Quick Setup Guide
