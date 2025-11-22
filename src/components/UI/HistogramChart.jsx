@@ -4,7 +4,9 @@ import {
   PointElement, 
   LineElement, 
   BarElement, 
-  Tooltip
+  Tooltip, 
+  LineController, 
+  BarController
 } from 'chart.js'
 import { Bar } from 'react-chartjs-2'
 
@@ -13,7 +15,9 @@ ChartJS.register(
   PointElement, 
   LineElement, 
   BarElement, 
-  Tooltip
+  Tooltip, 
+  LineController, 
+  BarController
 )
 
 const HistogramChart = ({ hist, kde }) => {
