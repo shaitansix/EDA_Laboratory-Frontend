@@ -1,6 +1,7 @@
 import axios from 'axios'
 
-const URL_BASE = 'http://localhost:8000/api/v1/correlation'
+// const URL_BASE = 'http://localhost:8000/api/v1/correlation'
+const URL_BASE = 'http://3.129.92.152:8000/api/v1/correlation'
 
 export const correlationMatrix = (fileParams) => {
   const headers = {
