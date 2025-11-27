@@ -20,6 +20,9 @@ docker pull shaitansix/eda_laboratory-client:1
 docker run --name eda_laboratory-client -e VITE_API_URL=http://localhost:8000 -p 5173:5173 shaitansix/eda_laboratory-client:1
 ```
 
+*✔️ Frontend available at: 
+http://localhost:5173/*
+
 ## Using Node Js
 
 ### 1. Create a folder for the project and open cmd in this folder
@@ -35,7 +38,13 @@ cd EDA_Laboratory-Frontend
 npm install
 ```
 
-### 4. Run the development server
+### 4. Configure environment variables: 
+**Create an .env.development file in the EDA_Laboratory-Frontend folder** 
+```bash
+VITE_API_URL=http://localhost:8000
+```
+
+### 5. Run the development server
 ```bash
 npm run dev
 ```
