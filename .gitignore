@@ -28,3 +28,6 @@ package-lock.json
 .dockerignore
 docker-compose*.yml
 Dockerfile*
+
+# venv
+.env*

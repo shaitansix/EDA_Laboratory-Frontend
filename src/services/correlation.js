@@ -1,7 +1,7 @@
 import axios from 'axios'
 
-// const URL_BASE = 'http://localhost:8000/api/v1/correlation'
-const URL_BASE = 'http://lb-edalab-1031131010.us-east-2.elb.amazonaws.com/api/v1/correlation'
+const API_URL = import.meta.env.VITE_API_URL
+const URL_BASE = `${API_URL}/api/v1/correlation`
 
 export const correlationMatrix = (fileParams) => {
   const headers = {

@@ -17,7 +17,7 @@ docker pull shaitansix/eda_laboratory-client:1
 
 ### 2. Create a Docker container and then initialize it
 ```bash
-docker run --name eda_laboratory-client -p 5173:5173 shaitansix/eda_laboratory-client:1
+docker run --name eda_laboratory-client -e VITE_API_URL=http://localhost:8000 -p 5173:5173 shaitansix/eda_laboratory-client:1
 ```
 
 ## Using Node Js
